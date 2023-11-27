@@ -24,7 +24,7 @@ list_of_files = [
     "app.py",
     "main.py",
     "setup.py",
-    "main.py"
+    "main.pysrc"
     "logs.py",  # Added a comma to separate this item from the next one
     "exception.py",
 ]
@@ -40,3 +40,4 @@ for filepth in list_of_files:
         logging.info(f"File created at: {filepath}")
     else:
         logging.info(f"File already present at: {filepath}")
+
